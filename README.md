@@ -7,7 +7,7 @@ This repository includes a stand-alone package for implementing Implicit Backgro
 --------
 
 <p align="center">
-<img src="https://github.gatech.edu/clehman31/implicit-background-estimation/raw/master/resources/semseg.png" alt="Semantic Segmentation">
+<img src="https://github.com/olivesgatech/implicit-background-estimation/raw/master/resources/semseg.png" alt="Semantic Segmentation">
 </p>
 
 
@@ -81,7 +81,7 @@ def forward(self, input):
 ### Under the hood:
 
 <p align="center">
-<img src="https://github.gatech.edu/clehman31/implicit-background-estimation/raw/master/resources/ibe.png" alt="Implicit Background Estimation">
+<img src="https://github.com/olivesgatech/implicit-background-estimation/raw/master/resources/ibe.png" alt="Implicit Background Estimation">
 </p>
 
 The IBE model predicts background only when all non-background classes are negative.  This is accomplished by employing a negative log sum exponential on the non-background predictions to extend the prediction vectors by one. A more detailed explanation is available in our [paper](https://arxiv.org/abs/xxxx).
@@ -89,7 +89,7 @@ The IBE model predicts background only when all non-background classes are negat
 ## Expected Non-Distinctiveness Metric
 
 <p align="center">
-<img src="https://github.gatech.edu/clehman31/implicit-background-estimation/raw/master/resources/end.png" alt="Semantic Segmentation">
+<img src="https://github.com/olivesgatech/clehman31/implicit-background-estimation/raw/master/resources/end.png" alt="Semantic Segmentation">
 </p>
 
 ```python
