@@ -89,7 +89,7 @@ The IBE model predicts background only when all non-background classes are negat
 ## Expected Non-Distinctiveness Metric
 
 <p align="center">
-<img src="https://github.com/olivesgatech/clehman31/implicit-background-estimation/raw/master/resources/end.png" alt="Semantic Segmentation">
+<img src="https://github.com/olivesgatech/implicit-background-estimation/raw/master/resources/end.png" alt="Semantic Segmentation">
 </p>
 
 ```python
