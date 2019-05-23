@@ -96,7 +96,7 @@ The IBE model predicts background only when all non-background classes are negat
 from IBE import ExpectedNonDistinctiveness as END
 
 output = model(input)
-end = END(output, background_class_index=0)
+end = END(output)
 ```
 
 ## Citation: 
