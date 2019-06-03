@@ -2,7 +2,7 @@
 
 Charles Lehman, Dogancan Temel, [Ghassan AlRegib](http://www.ghassanalregib.com)
 
-This repository includes a stand-alone package for implementing Implicit Background Estimation (IBE) on existing PyTorch semantic segmentation models. Further information is available from our paper '**Implicit Background Estimation for Semantic Segmentation**' that was accepted to the International Conference on Image Processing, 22-25 September 2019 in Taipei, Taiwan. [preprint](https://arxiv.org/abs/xxxx)
+This repository includes a stand-alone package for implementing Implicit Background Estimation (IBE) on existing PyTorch semantic segmentation models. Further information is available from our paper '**Implicit Background Estimation for Semantic Segmentation**' that was accepted to the International Conference on Image Processing, 22-25 September 2019 in Taipei, Taiwan. [preprint](http://arxiv.org/abs/1905.13306)
 
 --------
 
@@ -84,7 +84,7 @@ def forward(self, input):
 <img src="https://github.com/olivesgatech/implicit-background-estimation/raw/master/resources/ibe.png" alt="Implicit Background Estimation">
 </p>
 
-The IBE model predicts background only when all non-background classes are negative.  This is accomplished by employing a negative log sum exponential on the non-background predictions to extend the prediction vectors by one. A more detailed explanation is available in our [paper](https://arxiv.org/abs/xxxx).
+The IBE model predicts background only when all non-background classes are negative.  This is accomplished by employing a negative log sum exponential on the non-background predictions to extend the prediction vectors by one. A more detailed explanation is available in our [paper](http://arxiv.org/abs/1905.13306).
 
 ## Expected Non-Distinctiveness Metric
 
@@ -100,7 +100,7 @@ end = END(output, background_class_index=0)
 ```
 
 ## Citation: 
-If you have found our code useful, we kindly ask you to cite our work. You can cite the arXiv preprint for now: 
+If you have found our code useful, we kindly ask you to cite our work: 
 ```tex
 @INPROCEEDINGS{Lehman2019, 
 author={C. Lehman and D. Temel and G. AIRegib}, 
