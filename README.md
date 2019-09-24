@@ -4,6 +4,8 @@ Charles Lehman, Dogancan Temel, [Ghassan AlRegib](http://www.ghassanalregib.com)
 
 This repository includes a stand-alone package for implementing Implicit Background Estimation (IBE) on existing PyTorch semantic segmentation models. Further information is available from our paper '**Implicit Background Estimation for Semantic Segmentation**' that was accepted to the International Conference on Image Processing, 22-25 September 2019 in Taipei, Taiwan. [preprint](https://arxiv.org/abs/1905.13306)
 
+[Poster](https://docs.google.com/presentation/d/e/2PACX-1vTEf699dWy37tKm0yuJ_LWy_jx9ucD5m920SLpTXZqkLd1UmHyBdpBgBmDpjfz2AyNfRGHdXrLSnjlM/pub?start=false&loop=false&delayms=3000)
+
 --------
 
 <p align="center">
