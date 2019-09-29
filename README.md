@@ -21,7 +21,7 @@ Scene understanding and semantic segmentation are at the core of many computer v
 Install dependencies and the IBE package.
 
 ```bash
-pip install git+https:/github.com/olivesgatech/implicit-background-estimation.git
+pip install git+https://github.com/olivesgatech/implicit-background-estimation.git
 ```
 
 ## Implicit Background Usage
